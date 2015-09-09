@@ -15,19 +15,19 @@ This folder contains misc. support code for Sass builds (global functions, etc.)
 
 This folder contains Sass files defining CSS rules corresponding to classes
 included in the application's JavaScript code build. By default, files in this 
-folder are mapped to the application's root namespace, 'Inventory'. This is set in
+folder are mapped to the application's root namespace, 'myapp'. This is set in
 `"app.json"`:
 
     "sass": {
-        "namespace": "Inventory"
+        "namespace": "myapp"
     }
 
 ### ./sass/var
 
 This folder contains Sass files defining Sass variables corresponding to classes
 included in the application's JavaScript code build. By default, files in this 
-folder are mapped to the application's root namespace, 'Inventory' in the same way
-as `"Inventory/sass/src"`.
+folder are mapped to the application's root namespace, 'myapp' in the same way
+as `"myapp/sass/src"`.
 
 ## Slicing
 

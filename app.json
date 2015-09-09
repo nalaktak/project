@@ -2,7 +2,7 @@
     /**
      * The application's namespace.
      */
-    "name": "Inventory",
+    "name": "myapp",
     
     /**
      * The version of the application.
@@ -70,13 +70,13 @@
     "sass": {
         /**
          * The root namespace to use when mapping *.scss files to classes in the
-         * sass/src and sass/var directories. For example, "Inventory.view.Foo" would
-         * map to "sass/src/view/Foo.scss". If we changed this to "Inventory.view" then
+         * sass/src and sass/var directories. For example, "myapp.view.Foo" would
+         * map to "sass/src/view/Foo.scss". If we changed this to "myapp.view" then
          * it would map to "sass/src/Foo.scss". To style classes outside the app's
          * root namespace, change this to "". Doing so would change the mapping of
-         * "Inventory.view.Foo" to "sass/src/Inventory/view/Foo.scss".
+         * "myapp.view.Foo" to "sass/src/myapp/view/Foo.scss".
          */
-        "namespace": "Inventory",
+        "namespace": "myapp",
 
         /**
          * File used to save sass variables edited via Sencha Inspector. This file
@@ -548,5 +548,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "f4bb1d88-93fa-4a1b-83ca-6911ddc01037"
+    "id": "02d2c007-6dbb-4736-9848-350cf2d0a138"
 }

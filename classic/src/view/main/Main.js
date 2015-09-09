@@ -5,7 +5,7 @@
  *
  * TODO - Replace this content of this view to suite the needs of your application.
  */
-Ext.define('Inventory.view.main.Main', {
+Ext.define('myapp.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
 
@@ -13,9 +13,9 @@ Ext.define('Inventory.view.main.Main', {
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
 
-        'Inventory.view.main.MainController',
-        'Inventory.view.main.MainModel',
-        'Inventory.view.main.List'
+        'myapp.view.main.MainController',
+        'myapp.view.main.MainModel',
+        'myapp.view.main.List'
     ],
 
     controller: 'main',

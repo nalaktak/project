@@ -3,10 +3,10 @@
  * calls Ext.application(). This is the ideal place to handle application launch and
  * initialization details.
  */
-Ext.define('Inventory.Application', {
+Ext.define('myapp.Application', {
     extend: 'Ext.app.Application',
     
-    name: 'Inventory',
+    name: 'myapp',
 
     stores: [
         // TODO: add global / shared stores here

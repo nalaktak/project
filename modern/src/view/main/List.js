@@ -1,12 +1,12 @@
 /**
  * This view is an example list of people.
  */
-Ext.define('Inventory.view.main.List', {
+Ext.define('myapp.view.main.List', {
     extend: 'Ext.grid.Grid',
     xtype: 'mainlist',
 
     requires: [
-        'Inventory.store.Personnel'
+        'myapp.store.Personnel'
     ],
 
     title: 'Personnel',
