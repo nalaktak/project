@@ -7,6 +7,15 @@
 
     <title>myapp</title>
 
+    <style>
+        body {
+            background-color: #f6f6f6;
+        }
+
+        #loading {
+            margin: 20% 50%;
+        }
+    </style>
     
     <script type="text/javascript">
         var Ext = Ext || {}; // Ext namespace won't be defined yet...
@@ -42,6 +51,7 @@
             //return function (manifest) {
                 // peek at / modify the manifest object
             //};
+           
         };
     </script>
     
@@ -50,5 +60,7 @@
     <script id="microloader" data-app="02d2c007-6dbb-4736-9848-350cf2d0a138" type="text/javascript" src="bootstrap.js"></script>
 
 </head>
-<body></body>
+<body style="">
+    <div id="loading">loading...</div>
+</body>
 </html>
