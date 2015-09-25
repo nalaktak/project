@@ -36,7 +36,7 @@ Ext.define('Project.view.login.Login', {
             listeners: {
                 keypress: function(a, e, eOpts) {
                     if(e.keyCode == 13) {
-                        console.log(Project.app.getController('Project.view.login.LoginController'));
+                        console.log('tes');
                     }
                 }
             },
