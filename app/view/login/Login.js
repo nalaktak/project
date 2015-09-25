@@ -24,14 +24,22 @@ Ext.define('Project.view.login.Login', {
             xtype: 'textfield',
             allowBlank: false,
             fieldLabel: 'User Name',
-            id: 'loginUserNameTextField',        
+            id: 'loginUserNameTextField',   
             name: 'user_name',
             width: 305
         }, {
             xtype: 'textfield',
             allowBlank: false,
             fieldLabel: 'Password',
-            id: 'loginPasswordTextField',  
+            enableKeyEvents: true,
+            id: 'loginPasswordTextField',
+            listeners: {
+                keypress: function(a, e, eOpts) {
+                    if(e.keyCode == 13) {
+                        console.log(Project.app.getController('Project.view.login.LoginController'));
+                    }
+                }
+            },
             inputType: 'password',      
             name: 'password',
             width: 305
